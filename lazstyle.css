@@ -1,0 +1,17 @@
+.laz-fs-1 { font-size: 0.4rem; }
+.laz-fs-2 { font-size: 0.6rem; }
+.laz-fs-3 { font-size: 0.8rem; }
+.laz-fs-4 { font-size: 1rem; }
+.laz-fs-5 { font-size: 1.2rem; }
+.laz-fs-6 { font-size: 1.4rem; }
+.laz-fs-7 { font-size: 1.6rem; }
+.laz-fs-8 { font-size: 1.8rem; }
+.laz-fs-9 { font-size: 2rem; }
+
+.laz-ol-style-armenian {list-style-type: armenian;}
+.laz-ol-style-decimal {list-style-type: decimal;}
+.laz-ol-style-decimalleadingzero {list-style-type: decimal-leading-zero;}
+.laz-ol-style-loweralpha {list-style-type: lower-alpha;}
+.laz-ol-style-upperalpha {list-style-type: upper-alpha;}
+.laz-ol-style-lowerroman {list-style-type: lower-roman;}
+.laz-ol-style-upperalpha {list-style-type: upper-roman;}

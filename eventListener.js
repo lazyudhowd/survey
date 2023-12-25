@@ -1,0 +1,1 @@
+document.getElementById("btnPrintSurvey").addEventListener("click",printSurvey,false);
