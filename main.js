@@ -1,1 +1,8 @@
-(function(){generatePertanyaanSurvey()})()
+(function(){
+	generatePertanyaanSurvey();
+	generatePertanyaanDataMasuk();
+	generatePertanyaanPelaksanaSurvey();
+	generatePertanyaanIdentitasPenerimaManfaat();
+
+	totalSemuaSurvey();
+})()
