@@ -1,9 +1,21 @@
 
 // javascript here ...
+
 let schemaDataMasuk = {
 	versi : "1.0",
-	pertanyaan : [
-		"Hari / Tanggal",
-		"Penerima Berkas"
+	subSurvey : [
+		{
+			judulSub:"DATA MASUK LAZISMU",
+			pertanyaanSurvey : [
+				{
+					label : "Hari / Tanggal",
+					type : "text"
+				},
+				{
+					label : "Penerima Survey",
+					type : "text"
+				}
+			]
+		}
 	]
 }
