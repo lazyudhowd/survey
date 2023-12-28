@@ -12,3 +12,7 @@
 	border: 0px;
 	border-bottom: 1px dotted black;
 }
+
+#form1 * {
+	font-size: 0.75rem;
+}
