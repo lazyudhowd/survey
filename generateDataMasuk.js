@@ -19,17 +19,17 @@ function generatePertanyaanDataMasuk(){
 		for(let ij=0; ij<schemaDataMasuk.subSurvey[ii].pertanyaanSurvey.length; ij++){
 
 			let subPertanyaan= document.createElement("div");
-			subPertanyaan.setAttribute("class","row mt-2");
+			subPertanyaan.setAttribute("class","row mt-2 pl-md-2 pr-md-4 justify-content-center justify-content-md-start");
 
 			let labelPertanyaan = document.createElement("label");
-			labelPertanyaan.setAttribute("class","col-3");
+			labelPertanyaan.setAttribute("class","col-12 col-md-2");
 			labelPertanyaan.setAttribute("for","dataMasukLazismu_sub"+ii+"_pertanyaan_"+ij);
 			labelPertanyaan.innerText = startQuestionNumber+". "+schemaDataMasuk.subSurvey[ii].pertanyaanSurvey[ij].label;
 
 			let inputText = document.createElement("input");
 			inputText.id = "dataMasukLazismu_sub"+ii+"_pertanyaan_"+ij
 			inputText.setAttribute("type","text");
-			inputText.setAttribute("class","col-8");
+			inputText.setAttribute("class","col-10 col-md-10");
 
 			subPertanyaan.appendChild(labelPertanyaan);
 			subPertanyaan.appendChild(inputText);
