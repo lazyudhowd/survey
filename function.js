@@ -1,9 +1,13 @@
 function printSurvey(){
 	let targetAreaSurvey = document.getElementById("areaSurvey");
 
+	let targetForm = document.getElementById("form1");
+	targetForm.style.width = "900px";
+
 	html2canvas(targetAreaSurvey).then(canvas => {
 		canvas.toBlob(function(blob){
 			window.saveAs(blob,"myimage.png");
+			targetForm.style.removeProperty('width');
 		});
 	});
 }
@@ -36,4 +40,6 @@ function totalSemuaSurvey(){
 	document.getElementById("labelSkor").innerText = "SKOR "+totalNilai;
 
 	document.getElementById("labelRekomendasi").innerText = dataRekomendasi[rekomendasiIndex].label;
+
+	console.log("Total Nilai : "+totalNilai);
 }
