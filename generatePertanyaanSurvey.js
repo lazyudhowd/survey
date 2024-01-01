@@ -27,6 +27,10 @@ function generatePertanyaanSurvey(){
 
 			registerSurvey.push("opsiforsub"+ii+"_pertanyaan"+ij);
 
+			// dataSurvey.subSurvey[ii].pertanyaanSurvey.push({label:"Tidak relevan", nilai:0});
+
+			dataSurvey.subSurvey[ii].pertanyaanSurvey[ij].opsiJawaban.push({label:"Tidak relevan", nilai:0});
+
 			for(let ik=0; ik<dataSurvey.subSurvey[ii].pertanyaanSurvey[ij].opsiJawaban.length; ik++){
 				
 				let subJawaban = document.createElement("div");
@@ -128,3 +132,4 @@ function generatePertanyaanSurvey2(){
 	}
 
 }
+
