@@ -26,12 +26,13 @@ function generatePertanyaanDataMasuk(){
 			labelPertanyaan.setAttribute("for","dataMasukLazismu_sub"+ii+"_pertanyaan_"+ij);
 			labelPertanyaan.innerText = startQuestionNumber+". "+schemaDataMasuk.subSurvey[ii].pertanyaanSurvey[ij].label;
 
+			subPertanyaan.appendChild(labelPertanyaan);
+
 			let inputText = document.createElement("input");
-			inputText.id = "dataMasukLazismu_sub"+ii+"_pertanyaan_"+ij
 			inputText.setAttribute("type","text");
+			inputText.id = "dataMasukLazismu_sub"+ii+"_pertanyaan_"+ij;
 			inputText.setAttribute("class","col-10 col-md-10");
 
-			subPertanyaan.appendChild(labelPertanyaan);
 			subPertanyaan.appendChild(inputText);
 
 			areaPertanyaanSub.appendChild(subPertanyaan);
