@@ -9,3 +9,31 @@ for(let ii=0; ii<registerSurvey.length; ii++){
 		radio[ij].addEventListener("change",totalSemuaSurvey)
 	}
 }
+
+document.getElementById("dataMasukLazismu_sub0_pertanyaan_0").addEventListener("click", function(){
+	this.setAttribute("type","date");
+	this.showPicker();
+}, false);
+
+document.getElementById("dataMasukLazismu_sub0_pertanyaan_0").addEventListener("change", function(){
+	this.setAttribute("type","text");
+	let date = new Date(this.value);
+
+	let displayValue = dayName[date.getDay()-1].ind+" / "+date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear();
+
+	this.value = displayValue;
+}, false);
+
+document.getElementById("pelaksanaSurveyLazismu_sub0_pertanyaan_0").addEventListener("click", function(){
+	this.setAttribute("type","date");
+	this.showPicker();
+}, false);
+
+document.getElementById("pelaksanaSurveyLazismu_sub0_pertanyaan_0").addEventListener("change", function(){
+	this.setAttribute("type","text");
+	let date = new Date(this.value);
+
+	let displayValue = dayName[date.getDay()-1].ind+" / "+date.getDate()+"-"+(date.getMonth()+1)+"-"+date.getFullYear();
+
+	this.value = displayValue;
+}, false);
