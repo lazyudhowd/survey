@@ -10,3 +10,13 @@ let dataRekomendasi = [
 	{min : 100, max : 149, label : "Di Pertimbangkan"},
 	{min : 0, max : 99, label : "Tidak Layak"}
 ];
+
+let dayName = [
+	{ind:"Senin", en:"monday"},
+	{ind:"Selasa", en:"tuesday"},
+	{ind:"Rabu", en:"wednesday"},
+	{ind:"Kamis", en:"thrusday"},
+	{ind:"Jumat", en:"friday"},
+	{ind:"Sabtu", en:"saturday"},
+	{ind:"Minggu", en:"sunday"}
+]
