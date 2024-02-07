@@ -8,6 +8,12 @@
 .laz-fs-8 { font-size: 1.8rem; }
 .laz-fs-9 { font-size: 2rem; }
 
+.asTextArea {
+	border: 1px solid #00000038;
+	border-radius: 3px;margin-top: 5px;
+	padding: 5px;
+}
+
 .laz-ol-style-armenian {list-style-type: armenian;}
 .laz-ol-style-decimal {list-style-type: decimal;}
 .laz-ol-style-decimalleadingzero {list-style-type: decimal-leading-zero;}
